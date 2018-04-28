@@ -9,6 +9,7 @@ const driver = {};
 
 function updateDriverWithKeyAndValue(driver, key, value) {
   // newObj = { ...driver };
+  newObj = {}
   newObj[key] = value;
   return newObj;
 
